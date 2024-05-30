@@ -12,7 +12,7 @@ const Bracnhes = () => {
   </div>
 
   <div class="grid md:grid-cols-2 md:items-center gap-6 md:gap-8 lg:gap-12">
-    <div class="aspect-w-16 lg:w-[500px]  mx-auto aspect-h-6 lg:aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
+    <div class="aspect-w-16 lg:w-[500px] w-auto mx-auto aspect-h-6 lg:aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl dark:bg-neutral-800">
       <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Description"/>
     </div>
     {/* <!-- End Col --> */}
