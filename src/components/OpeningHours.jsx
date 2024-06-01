@@ -20,10 +20,10 @@ const OpeningHours = () => {
             <div className='hours mt-10 flex justify-center sm:gap-20 gap-5 '>
                 <div className='left  mt-10 flex flex-col '>
                     <span className='text-[#9b7b32]  sm:text-3xl text-xl text-center'>
-                        Monday to Thursday
+                        Monday to Saturday
                     </span>
                     <span className='text-center mt-10 mb-5 font-bold sm:text-2xl text-xl text-[#3b4f34]'>9:00 AM</span>
-                    <span className='text-center font-bold sm:text-2xl text-xl text-[#3b4f34]'>12:00 AM</span>
+                    <span className='text-center font-bold sm:text-2xl text-xl text-[#3b4f34]'>6:00 PM</span>
                 </div>
 
                 <div className='columnDivider'>
@@ -32,11 +32,11 @@ const OpeningHours = () => {
 
                 <div className='right mt-10 flex flex-col'>
                     <span className='text-[#9b7b32]  sm:text-3xl text-xl text-center'>
-                       Friday &
-                       Saturday
+                      
+                       Sunday
                     </span>
-                    <span className='text-center mt-10 mb-5 font-bold sm:text-2xl text-xl text-[#3b4f34]'>9:00 AM</span>
-                    <span className='text-center font-bold sm:text-2xl text-xl text-[#3b4f34]'>1:00 AM</span>   
+                    <span className='text-center mt-10 mb-5 font-bold sm:text-2xl text-xl text-[#3b4f34]'>OFF</span>
+                    {/* <span className='text-center font-bold sm:text-2xl text-xl text-[#3b4f34]'>1:00 AM</span>    */}
                 </div>
 
             </div>
