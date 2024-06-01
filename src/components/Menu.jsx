@@ -26,6 +26,10 @@ const Menu = () => {
     "https://1000logos.net/wp-content/uploads/2021/04/PlayStation-logo-500x281.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Realme_logo.svg/2560px-Realme_logo.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/JBL-Logo.svg/2560px-JBL-Logo.svg.png",
+    "https://1000logos.net/wp-content/uploads/2017/02/HP-Logo-500x281.jpg",
+    "https://1000logos.net/wp-content/uploads/2017/07/Dell-Logo-500x313.png",
+    "https://1000logos.net/wp-content/uploads/2017/03/Lenovo-Logo-1-500x313.png"
+
 
 
 
