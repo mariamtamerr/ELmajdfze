@@ -208,7 +208,7 @@ const Menu = () => {
                     {/* <div className=" w-64 h-48 sm:h-72 rounded-xl"> */}
                     <div className=" max-w-32 rounded-xl">
                       <img
-                        className="group-hover:scale-105 h-15 w-32 self-center items-center transition-transform duration-500 ease-in-out rounded-xl object-cover"
+                        className="group-hover:scale-105   self-center items-center transition-transform duration-500 ease-in-out rounded-xl object-cover"
                         src={image}
                         alt="Pizza Image"
                       />
