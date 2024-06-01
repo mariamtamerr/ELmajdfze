@@ -10,16 +10,16 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div id="menu">
+      <div id="brands">
         <Menu />
       </div>
-      <div id="branches">
+      <div id="contacts">
         <Bracnhes />
       </div>
-      <div id="openingHours">
+      <div id="opening-hours">
         <OpeningHours />
       </div>
-     
+
       <Footer />
     </div>
   );

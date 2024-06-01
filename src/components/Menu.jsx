@@ -15,30 +15,37 @@ const Menu = () => {
   // -- pizza ----
 
   const pizzaImages = [
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/iphone_15_pro_max_natural_titanium_1?1709801898?g=0",
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/iphone_15_pro_natural_titanium_1?1709801897?g=0",
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/Apple_iPhone11Pro_gold_1?1711013111?g=0",
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/000000000001164648_1?1711013111?g=0",
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/IPHONE13_starlight_1?1705940378?g=0",
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/IPHONE13_blue_1?1705940381?g=0",
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/IPHONE14PLUS_Blue_1?1716901446?g=0",
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/000000000001232928_1?1708338437?g=0",
-    "https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/iphone_15_plus_blue_1?1709801896?g=0",
+    "https://1000logos.net/wp-content/uploads/2016/10/Aqua-themed-apple-logo-500x313.png",
+    "https://1000logos.net/wp-content/uploads/2017/06/Samsung-logo-500x281.jpg",
+    "https://1000logos.net/wp-content/uploads/2018/10/Oppo-logo-500x240.png",
+    "https://1000logos.net/wp-content/uploads/2023/07/Honor-Logo-500x281.png",
+    "https://1000logos.net/wp-content/uploads/2021/08/Xiaomi-logo-500x281.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOqQPHifXxtVy0jKiuU3kF9vlvbPjdIAtZtw&s",
+    "https://1000logos.net/wp-content/uploads/2017/04/Motorola-logo-500x412.jpg",
+    "https://1000logos.net/wp-content/uploads/2022/11/OnePlus-Logo-500x281.png",
+    "https://1000logos.net/wp-content/uploads/2021/04/PlayStation-logo-500x281.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Realme_logo.svg/2560px-Realme_logo.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/JBL-Logo.svg/2560px-JBL-Logo.svg.png",
+
 
 
 
   ];
 
   const pizzaTitles = [
-    "Apple iPhone 15 Pro Max",
-    "Apple iPhone 15 Pro (128GB)",
-    "Apple iPhone 11 Pro",
-    "Apple iPhone 11 Pro",
-    " Apple iPhone 13 (128GB)",
-    "Apple iPhone 13 (256GB)",
-    "Apple iPhone 14 Plus (128GB)",
-    "Apple 20W USB-C Power Adapter",
-    "Apple iPhone 15 Plus",
+    "Apple",
+    "Samsung",
+    "Oppo",
+    "Honor",
+    "Xiaomi",
+    "Infinix",
+    "Motorola",
+    "OnePlus",
+    "Sony - PlayStation",
+    "Realme",
+    "JBL",
+
+
   ];
 
   const pizzaPrices = ["AED 4,499.00", "AED 4,099.00", "AED 4,499.00", "AED 1,999.00","AED 2,599.00", "AED 2,120.00","AED 2,899.00","AED 64.00","AED 3,299.01"];
@@ -113,7 +120,7 @@ const Menu = () => {
   return (
     <div className="mt-10">
       <div className="title mt-10 text-center">
-        <h3 className="text-[#9b7b32] text-4xl  font-bold">Our Items</h3>
+        <h3 className="text-[#d3ab4e] text-4xl  font-bold">Our Brands</h3>
         <p className="text-xl text-[#3b4f34] mt-5">Where Quality Matters</p>
       </div>
 
@@ -188,7 +195,7 @@ const Menu = () => {
             {/* <h3 className="text-[#9b7b32] flex justify-center text-3xl text-center font-bold">
               Pizza
             </h3> */}
-            <div className="childSlider grid grid-cols-2 lg:grid-cols-3 mx-auto lg:gap-20 max-w-md lg:max-w-5xl">
+            <div className="childSlider grid grid-cols-3 p-10 mx-auto gap-10  sm:gap-5 md:gap-10 lg:max-w-5xl ">
               {pizzaImages.map((image, index) => (
                 <div
                   key={index}
@@ -199,23 +206,21 @@ const Menu = () => {
                     href="#"
                   >
                     {/* <div className=" w-64 h-48 sm:h-72 rounded-xl"> */}
-                    <div className=" lg:w-80 rounded-xl">
+                    <div className=" max-w-32 rounded-xl">
                       <img
-                        className="group-hover:scale-105 h- w- transition-transform duration-500 ease-in-out rounded-xl object-cover"
+                        className="group-hover:scale-105 h-15 w-32 self-center items-center transition-transform duration-500 ease-in-out rounded-xl object-cover"
                         src={image}
                         alt="Pizza Image"
                       />
                     </div>
                     <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4"></div>
                   </a>
-                  <div className="mt-3 px-4">
+                  {/* <div className="mt-3 px-4">
                     <h3 className="text-lg text-">{pizzaTitles[index]}</h3>
                     <div>
-                      <p className="mt-2 font-bold text-orange-800 bg-orange-100 px-4 py-2 w-fit rounded-xl text-xs">
-                        {pizzaPrices[index]}
-                      </p>
+                      
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               ))}
             </div>
