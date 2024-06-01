@@ -1,0 +1,13 @@
+@keyframes fadeEffect {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade {
+    animation: fadeEffect 2s linear forwards;
+  }
+  

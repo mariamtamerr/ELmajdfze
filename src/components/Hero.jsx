@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
+import styles from './Hero.module.css'
 
 const Hero = () => {
 
@@ -28,7 +29,7 @@ const Hero = () => {
     
       return (
         <section className="w-full z-0 relative md:h-screen">
-        <div className="w-full  h-full bg-cover bg-center py-32" style={{ 
+        <div className={`w-full  h-full bg-cover bg-center py-32 ${styles.fade}  `} style={{ 
           backgroundImage: `url(${images[currentImageIndex]})`,
           opacity: 0.8, // Set opacity value as needed
         }}>
@@ -41,5 +42,7 @@ const Hero = () => {
       </section>
   )
 }
+
+
 
 export default Hero
